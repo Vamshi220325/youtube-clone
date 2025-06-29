@@ -24,7 +24,7 @@ const Header = () => {
             clearTimeout(timer);
         }
     
-    },[searchQuery])
+    },)
     const getSearchSuggestions=async()=>{
            const data=await fetch(SEARCH_API+searchQuery);
            const json=await data.json();

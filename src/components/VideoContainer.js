@@ -28,9 +28,9 @@ const VideoContainer = () => {
   useEffect(()=>{
       if(videoList.length===1){setVideos(videoList);}
    else getVideos();
-  },[]);
+  },[videoList]);
  
-  {if(videos.length===0)return <CallShimmer/>}
+  if(videos.length===0)return <CallShimmer/>
  
  
   

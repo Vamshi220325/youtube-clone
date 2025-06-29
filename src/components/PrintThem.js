@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 
 const PrintThem = ({v}) => {
 
-        const {snippet,statistics}=v;
+        const {snippet}=v;
     const {channelTitle,thumbnails,title}=snippet;
  const isMenuOpen=useSelector(store=>store.app.isMenuOpen)
    return (

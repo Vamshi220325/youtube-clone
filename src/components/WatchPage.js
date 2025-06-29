@@ -10,7 +10,7 @@ const WatchPage = () => {
     const dispatch=useDispatch();
     useEffect(()=>{
         dispatch(closeSideBar())
-    },[]);
+    },[dispatch]);
     const [searchParams]=useSearchParams();
    
   return (

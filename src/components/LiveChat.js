@@ -22,9 +22,9 @@ const LiveChat = () => {
        return ()=>{
         clearInterval(timer);
        }
-    },[])
+    },[dispatch])
     
-  {return  (
+  return  (
     <div>
     <div className=' w-full h-[450px] ml-2 p-2 border border-black bg-slate-100 overflow-y-scroll rounded-lg flex flex-col-reverse'>
       { chatMessages.map((c,index)=>(<ChatMessages key={index} name={c.name} message={c.message} />))
@@ -42,7 +42,7 @@ const LiveChat = () => {
           <button className='py-1 px-3 mx-2 rounded-lg bg-slate-200 hover:bg-slate-300'>Send</button>
         </form>
     </div>
-  )}
+  )
 }
 
 export default LiveChat
