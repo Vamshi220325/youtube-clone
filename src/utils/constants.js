@@ -5,5 +5,5 @@ export const YOUTUBE_API="https://youtube.googleapis.com/youtube/v3/videos?part=
 export const YOUTUBE_LOGO="https://1000logos.net/wp-content/uploads/2017/05/Youtube-Logo.png";
 export const SEARCH_API="http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 export const LIVE_CHAT_COUNT=20;
-export const SEARCHED_VIDEOS_LIST_API_1="https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q="
+export const SEARCHED_VIDEOS_LIST_API_1="https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q="
 export const SEARCHED_VIDEOS_LIST_API_2="&key=AIzaSyDkGXAyH_4wJdogAnv9Z5RJvutPCPc0By0"

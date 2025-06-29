@@ -89,7 +89,7 @@ const commentsData=[
 ];
 
 const Comment=({data})=>{
-    const {name,text,replies}=data;
+    const {name,text,}=data;
     return  <div className='flex bg-gray-100 p-2  rounded-lg my-2'>
         <img className="w-8 h-8 mt-2 "src={USER_ICON} alt="user-icon"/>
         <div className='px-3 '>

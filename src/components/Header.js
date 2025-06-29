@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { toggleMenu } from '../utils/appSlice';
 import { cacheResults } from '../utils/searchSlice';
 import { addVideosList, removeVideos } from '../utils/searchVideos';
-import searchedVideos from "../utils/searchVideos";
+
 
 const Header = () => {
     const dispatch=useDispatch();
